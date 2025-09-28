@@ -52,5 +52,5 @@ A modern, responsive React website for IELTS preparation with AI-powered feature
 
 - Optimized Images: Properly sized hero images and icons
 
-Clean Code: Minimal dependencies and efficient React patterns
+- Clean Code: Minimal dependencies and efficient React patterns
 
