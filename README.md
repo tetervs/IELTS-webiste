@@ -16,7 +16,7 @@ A modern, responsive React website for IELTS preparation with AI-powered feature
 2. **Clone the repo
    ```bash
    git clone https://github.com/tetervs/IELTS-webiste.git
-   cd IELTS-webiste
+   
 3. **Start development server**
    ```bash
    npm start
