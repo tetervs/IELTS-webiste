@@ -37,7 +37,17 @@ export const Hero = () => {
             </div>
         </div>
         <div className="hero-right">
-            <img src={study} alt="Student studying" className="hero-image" />
+            <div className="stats-right">
+                <div className="stat-item-top-left">
+                    <h3>Band 8.5</h3>
+                    <p>Average Score</p>
+                </div>
+                <img src={study} alt="Student studying" className="hero-image" />
+                <div className="stat-item-bottom-right">
+                    <h3>24/7</h3>
+                    <p>AI Support</p>
+                </div>
+            </div>
         </div>
     </div>
   )
