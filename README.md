@@ -20,4 +20,4 @@ A modern, responsive React website for IELTS preparation with AI-powered feature
    ```bash
    npm run build
 
-### 🎯 Design Choices
+## 🎯 Design Choices
