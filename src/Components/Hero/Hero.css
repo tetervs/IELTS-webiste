@@ -201,48 +201,182 @@
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 40px 5%;
+        padding: 60px 5%;
+        gap: 30px;
+        min-height: auto;
     }
 
     .hero-left {
-        margin-bottom: 40px;
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+
+    .hero-right {
+        width: 100%;
     }
 
     .main-text h1 {
-        font-size: 36px;
+        font-size: 32px;
+    }
+
+    .gradient-text {
+        font-size: 32px;
+    }
+
+    .paragraph p {
+        font-size: 16px;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
     .hero-buttons {
         justify-content: center;
+        margin: 25px 0;
     }
 
     .stats {
         justify-content: center;
         gap: 30px;
+        margin-top: 30px;
     }
 
-    .text p {
-        max-width: 100%;
+    .rating {
+        justify-content: center;
+    }
+
+    .rating p {
+        justify-content: center;
+    }
+
+    .stat-item-top-left {
+        top: -15px;
+        left: -15px;
+        padding: 12px 15px;
+        min-width: 100px;
+    }
+    
+    .stat-item-bottom-right {
+        bottom: -15px;
+        right: -15px;
+        padding: 12px 15px;
+        min-width: 100px;
+    }
+
+    .stat-item-top-left h3,
+    .stat-item-bottom-right h3 {
+        font-size: 18px;
+    }
+
+    .stat-item-top-left p,
+    .stat-item-bottom-right p {
+        font-size: 10px;
     }
 }
 
 @media (max-width: 480px) {
+    .hero {
+        padding: 40px 5%;
+        gap: 25px;
+    }
+
     .main-text h1 {
         font-size: 28px;
+    }
+
+    .gradient-text {
+        font-size: 28px;
+    }
+
+    .paragraph p {
+        font-size: 15px;
     }
 
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 12px;
     }
 
     .primary-btn,
     .secondary-btn {
-        width: 200px;
+        width: 100%;
+        max-width: 250px;
+        padding: 14px 30px;
     }
 
     .stats {
         flex-direction: column;
         gap: 20px;
+        margin-top: 25px;
+    }
+
+    .stat-item h3 {
+        font-size: 28px;
+    }
+
+    .stat-item p {
+        font-size: 13px;
+    }
+
+    .rating p {
+        font-size: 13px;
+    }
+
+    .rating img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .stat-item-top-left {
+        top: -10px;
+        left: -10px;
+        padding: 10px 12px;
+        min-width: 90px;
+    }
+    
+    .stat-item-bottom-right {
+        bottom: -10px;
+        right: -10px;
+        padding: 10px 12px;
+        min-width: 90px;
+    }
+
+    .stat-item-top-left h3,
+    .stat-item-bottom-right h3 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .stat-item-top-left p,
+    .stat-item-bottom-right p {
+        font-size: 9px;
+        letter-spacing: 0.3px;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-text h1 {
+        font-size: 24px;
+    }
+
+    .gradient-text {
+        font-size: 24px;
+    }
+
+    .paragraph p {
+        font-size: 14px;
+    }
+
+    .stats {
+        gap: 15px;
+    }
+
+    .stat-item h3 {
+        font-size: 24px;
+    }
+
+    .stat-item-top-left,
+    .stat-item-bottom-right {
+        display: none;
     }
 }
