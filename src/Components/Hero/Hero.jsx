@@ -14,7 +14,7 @@ export const Hero = () => {
                 <h1>Master ILETS with</h1>
                 <h1 className='gradient-text'>Expert Guidance</h1>
             </div>
-            <div className="text">
+            <div className="paragraph">
                 <p>Achieve your target band score with our comprehensive IELTS preparation program. AI-powered practice, expert tutoring, and proven strategies.</p>
             </div>
             <div className="hero-buttons">
