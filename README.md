@@ -1,21 +1,15 @@
-# IELTS Preparation Website
+# IELTS Excellence - React Website
 
-A web application for IELTS exam preparation with study materials and practice tests.
+A modern, responsive React website for IELTS preparation with AI-powered features and expert guidance.
 
-## Setup Instructions
+## 🚀 Quick Start
 
-1. **Clone the repository**
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone and install dependencies**
    ```bash
-   git clone https://github.com/tetervs/IELTS-webiste.git
-   cd IELTS-webiste
-
-Design Choices
-Modular structure - Organized code into logical components (controllers, models, views)
-
-Simple authentication - User registration/login for progress tracking
-
-Section-based learning - Separate modules for Listening, Reading, Writing, Speaking
-
-Practical focus - Emphasis on practice tests and real exam materials
-
-Responsive design - Accessible on both desktop and mobile devices
+   npm install
